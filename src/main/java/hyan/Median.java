@@ -11,21 +11,12 @@ public class Median {
 
         List<Integer> arr = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
-        pocetCisel = new ArrayList<>();
         daneCislo = sc.nextInt();
         while (daneCislo!=0) {
             arr.add(daneCislo);
             daneCislo = sc.nextInt();
         }
-        if (pocetCisel % 2 =0) {
 
-
-
-        } else {
-
-
-
-        }
     }
 
 }
