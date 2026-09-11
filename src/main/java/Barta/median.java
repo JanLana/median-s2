@@ -1,6 +1,7 @@
 package Barta;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,6 +19,7 @@ public class median {
                 if (arr.isEmpty()){
                     System.out.println("Žádná vložená čísla");
                 } else {
+                    Collections.sort(arr);
                     pustit = false;
                     vystup = arr.get(arr.size() / 2);
                 }
